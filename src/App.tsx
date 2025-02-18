@@ -4,12 +4,14 @@ import HeroSection from "./components/HeroSection";
 import WorkGallery from "./components/WorkGallery";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import WhatServices from "./components/WhatServices";
 
 function App() {
   return (
     <Box component="body" sx={{ bgcolor: "#b5b5b5" }}>
       <Header />
       <HeroSection />
+      <WhatServices />
       <WorkGallery />
       <ContactUs />
       <Footer />

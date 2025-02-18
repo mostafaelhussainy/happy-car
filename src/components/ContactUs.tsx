@@ -6,26 +6,26 @@ const ContactUs = () => {
       id="contact-us"
       component="section"
       sx={{
-        padding: "5rem 0", // Converted 80px to rem
+        padding: "5rem 0",
       }}
     >
       <Box
         sx={{
-          maxWidth: "90rem", // Converted 1440px to rem
+          maxWidth: "90rem",
           width: "95%",
           margin: "0 auto",
           display: "flex",
-          flexDirection: { xs: "column", md: "row" }, // Responsive layout
+          flexDirection: { xs: "column", md: "row" },
           justifyContent: "space-between",
           alignItems: "center",
-          gap: "2rem", // Added spacing for smaller screens
+          gap: "2rem",
         }}
       >
         <Box
           sx={{
             display: "flex",
             flexDirection: "column",
-            gap: "2.5rem", // Converted 40px to rem
+            gap: "2.5rem",
             maxWidth: { xs: "100%", md: "35%" }, // Adjust width for smaller screens
           }}
         >
@@ -56,13 +56,12 @@ const ContactUs = () => {
                 textShadow: "1px 1px 0.3125rem rgba(0, 0, 0, 0.4)", // Converted 5px to rem
               }}
             >
-              Whether you have questions, feedback, or just want to connect,
-              feel free to reach out to us.
+              Whether you have questions, feedback, or just want to connect, feel free to reach out to us.
             </Typography>
           </Box>
           <Box>
             <a
-              href="https://wa.me/+966535343673"
+              href="https://wa.me/+966536313392"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -96,12 +95,12 @@ const ContactUs = () => {
 
         <Box
           sx={{
-            border: "0.125rem solid rgba(255, 255, 255, 0.2)", // Converted 2px to rem
-            borderRadius: "0.5rem", // Converted 8px to rem
+            border: "0.125rem solid rgba(255, 255, 255, 0.2)",
+            borderRadius: "0.5rem",
             overflow: "hidden",
             width: "100%",
-            maxWidth: "37.5rem", // Converted 600px to rem
-            height: "18.75rem", // Converted 300px to rem
+            maxWidth: "37.5rem",
+            height: "18.75rem",
           }}
         >
           <iframe

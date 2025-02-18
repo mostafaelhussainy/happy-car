@@ -8,6 +8,10 @@ import WorkshopImg5 from "../assets/workshop (5).jpeg";
 import WorkshopImg6 from "../assets/workshop (6).jpeg";
 import WorkshopImg7 from "../assets/workshop (7).jpeg";
 import WorkshopImg11 from "../assets/workshop (11).jpeg";
+import WorkshopImg12 from "../assets/workshop (12).jpeg";
+import WorkshopImg14 from "../assets/workshop (14).jpeg";
+import WorkshopImg15 from "../assets/workshop (15).jpeg";
+import WorkshopImg16 from "../assets/workshop (16).jpeg";
 
 const WorkGallery = () => {
   const imagesGallery = [
@@ -19,6 +23,10 @@ const WorkGallery = () => {
     WorkshopImg6,
     WorkshopImg7,
     WorkshopImg11,
+    WorkshopImg12,
+    WorkshopImg14,
+    WorkshopImg15,
+    WorkshopImg16,
   ];
 
   return (
@@ -67,6 +75,7 @@ const WorkGallery = () => {
               sx={{
                 width: "100%",
                 height: "auto",
+                minHeight: "500px",
                 borderRadius: "1rem", // border radius converted to rem
                 objectFit: "cover", // ensures image fills the container without stretching
               }}
